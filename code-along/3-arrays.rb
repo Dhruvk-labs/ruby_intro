@@ -3,7 +3,8 @@
 # ruby 3-arrays.rb
 
 # Arrays are lists of things
-
+numbers = [2,5,11,8]
+p numbers
 # Accessing the array
 
 # Add to the array
