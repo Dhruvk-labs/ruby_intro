@@ -3,13 +3,46 @@
 # ruby 2-conditionals.rb
 
 # Booleans
+test_is_true = true
+puts test_is_true
+
+test_is_false = false
+puts test_is_false
 
 # Boolean Expressions
+puts 3 == 2 # returns false
+puts 3 != 2 # returns true
+puts 3 > 2 # returns true
+puts 3 < 2 # returns false
 
 # If Conditional Logic
+if 3 == 2
+  puts "This text should never be displayed"
+end
 
+if 3 > 2
+  puts "This text should always be displayed"
+end
 # If/Else Conditional Logic
-
+if 3 < 2
+  puts "This text should never be displayed"
+else
+  puts "This text should always be displayed"
+end
 # Elsif Conditional Logic
+home_team =7
+away_team =7
 
+if home_team>away_team
+  puts "we won!"
+elsif home_team == away_team
+  puts "tied"
+else 
+  puts "shame"
+end
 # Combining Expressions
+
+temp = 8
+condition ="sunny"
+
+if temp>29 || condition == "sunny"
